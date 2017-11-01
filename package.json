@@ -62,6 +62,7 @@
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
+    "deploy": "truffle migrate",
     "test": "node scripts/test.js --env=jsdom",
     "watch-contracts": "gulp watch-contracts",
     "geth": "gulp geth"

@@ -106,3 +106,14 @@ You're done !
 * __Where can I find more documentation?__
 
     This project has been created with [truffle-box-react](https://github.com/truffle-box/truffle-box-react/) which is a marriage of [Truffle](http://truffleframework.com/) and a React setup created with [create-react-app](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md). Either one would be a great place to start!
+
+## Kick start
+```shell
+npm install -g truffle
+npm i -g ethereumjs-testrpc
+testrpc
+npm i
+npm run build
+npm run deploy
+npm run start
+```
