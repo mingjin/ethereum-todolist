@@ -2,7 +2,13 @@
   "name": "ethereum-todolist",
   "version": "0.1.0",
   "private": true,
+  "engines" : {
+    "node": "^6.12.0",
+    "npm": "^3.10.10"
+  },
   "devDependencies": {
+    "bip39": "2.3.0",
+    "ethereumjs-testrpc": "^2.2.4",
     "autoprefixer": "6.5.1",
     "babel-core": "6.17.0",
     "babel-eslint": "7.1.1",
@@ -54,6 +60,7 @@
     "whatwg-fetch": "1.0.0"
   },
   "dependencies": {
+    "truffle": "^4.0.1",
     "dotenv": "^2.0.0",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
